@@ -1,0 +1,48 @@
+name: flutterankara_2
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  form_builder_validators: ^11.1.1
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.2
+  flutter_native_splash: ^2.4.4
+  introduction_screen: ^3.1.14
+  flutter_form_builder: ^9.7.0
+  showcaseview: ^4.0.0
+
+  flutter_slidable: ^3.1.2
+
+flutter_native_splash:
+  color: "#ffffff" # Arka plan rengi
+  image: "assets/icon/splash_icon.png" # Splash ekranında gösterilecek resim
+  android: true
+  ios: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  remove_alpha_ios: true
+  #iOS'ta Apple App Store, şeffaflık (alpha channel) içeren
+  #simgelere izin vermiyor. Bu yüzden şeffaf bir ikon kullanıyorsanız,
+  #alpha kanalını kaldırmalısınız.
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+    - assets/images/
